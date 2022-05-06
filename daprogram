@@ -9,8 +9,9 @@ int main()
     int nombreMystere = 0, nombreEntre = 0;
 
     srand(time(NULL));
-    nombreMystere = (rand() % (MAX - MIN + 1)) + MIN;
-
+    nombreMystere = rand() % 100;
+    /*nombreMystere = (rand() % (MAX - MIN + 1)) + MIN;
+    */
     
     do
     {
